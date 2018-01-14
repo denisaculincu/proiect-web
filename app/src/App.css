@@ -1,0 +1,71 @@
+.App{
+    height: 800px;
+}
+
+html{
+    height: 100%;
+}
+body {
+    background-color:#3c4662;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+#map{
+    background-color: Pink;
+    width: 45%;
+    height: 650px;
+    float:left;
+    margin-left: 2%;
+    margin-top:1%;
+}
+
+#div_date_loc{
+    
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:#D6CFD5;
+    float:right;
+    margin-right: 2%;
+    margin-top:1%;
+    width:45%;
+    height:650px;
+    justify-content: center;
+}
+
+.locafisat{
+    font-size:20px;
+    margin-left:30px;
+    color:#3a3a3a;
+    display: inline;
+    
+}
+
+#butoane{
+    width:1000px;
+    height:50px;
+    color:#336699;
+    display: flex;
+    position:relative;
+    top:5%;
+    margin:auto;
+}
+
+.meniu{
+    width:25%;
+    text-align:center;
+    border:2px solid white;
+    border-radius:50px;
+    background-color:#b5d6e8;
+}
+
+.date{
+    height:35px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+
+
+
